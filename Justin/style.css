@@ -1,0 +1,41 @@
+/*
+Remember to go big/top elements to small/bottom element. it reads in order
+*/
+
+body {
+	background-image: url("background.jpg");
+}
+
+/*inline removes dots in addition to putting them in line*/
+.nav {
+	display: inline;
+}
+
+h2, p {
+	font: 24px/60px arial;
+}
+h2 {
+	color:#1D6E9E;
+	text-align: center;
+	border: 2px solid rgba(0, 0, 0, 0.5);
+	cursor: pointer; /*changes cursor when hovering over object*/
+
+}
+
+h2:hover {
+	color: #0C547F;
+	border: 2px solid rgba(0, 0, 0, 0.8);
+}
+p {
+	color: #0C547F;
+}
+#div1 {
+	background: rgba(137, 189, 220, 0.3);
+}
+
+footer {
+	text-align: center;
+}
+
+/*
+cascading indicates order matters!
