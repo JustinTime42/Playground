@@ -1,6 +1,6 @@
 # WebDevClass
 Code and notes for web developer 2018 class
-The website for this repo is hosted here: https://slarti-42.github.io/WebDevClass/
+The website for this repo is hosted here: https://slarti-42.github.io/WebDevClass/. You can find the source for that webpage on the gh-pages branch of this repository.
 
 This is just a repository of study notes for this web development class on udemy along with other cool web/computer stuff we're working on. Feel free to contribue more links: to your own work, or other helpful resources.
 
