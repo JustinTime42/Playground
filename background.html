@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Background Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bgstyle.css">
+</head>
+<header>
+		<nav class="menu">
+			<ul>
+				<li class="nav shadow"><a href="index.html">Home</a></li>
+				<li class="nav shadow"><a href="about.html">About</a></li>
+				<li class="nav shadow"><a href="login.html">Login - doesn't work</a></li>
+				<li class="nav shadow"><a href="register.html">Register</a></li>
+				<li class="nav shadow"><a href="photos.html">Photos</a></li>
+			</ul>
+		</nav>
+</header>
+<body id="gradient">
+	<h1>Background Generator</h1>
+	<form>
+		<input class="color1" type="color" name="color1" value="#00ff00">
+		<input class="color2" type="color" name="color2" value="#0000ff">
+		<select id="direction">
+			<option id="vertical" value="">Vertical</option>
+			<option value="to right, ">Horizontal</option>
+			<option value="45deg, ">Diagonal</option>	
+		</select>
+		<input id="submit" type="button" value="Generate">
+	</form>
+	<h2> Current CSS Background </h2>
+	<h3></h3>
+	<script type="text/javascript" src="bgscript.js"></script>
+</body>
+</html>
